@@ -1,6 +1,6 @@
 # Market-Basket-Analysis
-This analysis is all about, "Customers who purchased this product also viewed or purchased these products...." This is an intense analysis that requires deep investigation of apriori product rules, which lead to online cross-selling and recommender systems. Ultimately, not only do I find product associations, but I also trasnlate those to actionable insights an online retailer can make.
-* Please see Market Basket.md for full analysis
+This analysis is all about "Customers who purchased this product also viewed or purchased these products...." This is an intense analysis that requires deep investigation of apriori product rules, which lead to online cross-selling and recommender systems. Ultimately, not only do I find product associations, but I also trasnlate those to actionable insights an online retailer can make.
+* Please see Market-Basket-Analysis.md for full analysis
 * Full analysis also available on R Studio's RPubs at https://rpubs.com/brosnahj/MarketBasket
 
 ## Background
