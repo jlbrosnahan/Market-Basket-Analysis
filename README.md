@@ -3,6 +3,7 @@
 Sound earily familiar? This type of data science is called Market Basket Analysis, which requires a deep investigation of apriori product rules that can help lead to online cross-selling and recommender systems. Not only do I find product associations in this analysis, but I also translate findings to actionable insights for an online retailer, applicability which is often lacking in other published market basket analyses and tutorials.
 * Please see Market-Basket-Analysis.md for full analysis, scroll down for full business insights
 * Also available on R Studio's RPubs at https://rpubs.com/brosnahj/MarketBasket
+* See 'Market Basket Report.pdf' for business insight report provided to company
 
 ## Background
 We have been asked by Blackwell Electronics to conduct a Market Basket Analysis on 30 days worth of transactions. Based on this market basket analysis, we will provide insights and purchasing patterns in order to provide product recommendations for cross-selling and recommender opportunities.
