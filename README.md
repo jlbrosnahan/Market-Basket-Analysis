@@ -1,6 +1,6 @@
 # Market-Basket-Analysis
 ## "Customers who purchased this product also viewed or purchased these products...." 
-Sound earily familiar? This type of data science is called Market Basket Analysis, which requires a deep investigation of apriori product rules that can help lead to online cross-selling and recommender systems. Not only do I find product associations in this analysis, but I also translate findings to actionable insights for an online retailer, applicability of which is often lacking in other published market basket analyses and tutorials.
+Look familiar? This type of data science is called Market Basket Analysis, which requires a deep investigation of apriori product rules that can help lead to online cross-selling and recommender systems. Not only do I find product associations in this analysis, but I also translate findings to actionable insights for an online retailer, applicability of which is often lacking in other published market basket analyses and tutorials.
 * Please see Market-Basket-Analysis.md for full analysis, scroll down for full business insights
 * Also available on R Studio's RPubs at https://rpubs.com/brosnahj/MarketBasket
 * See 'Market Basket Report.pdf' for business insight report provided to company
@@ -18,3 +18,18 @@ The dataset contains 30 days’ worth of Blackwell Electronics online transactio
 
 ## Analysis plan
 We will use basket formatting and apply the apriori algorithm to determine relationships between products.
+
+## Actionable Insights for Blackwell:
+1. Initiate recommender systems for the following products listed within these item sets frequently bought together:
+* Acer Aspire, ViewSonic Monitor, HP Laptop
+* Dell Desktop, ViewSonic Monitor, HP Laptop
+* CYBERPOWER Gamer Desktop, ViewSonic Monitor, HP Laptop
+* ASUS Monitor, HP Laptop, iMac
+* ASUS 2 Monitor, HP Laptop, iMac
+* HP Laptop, Microsoft Office Home and Student 2016, iMac
+* CYBERPOWER Gamer Desktop, ViewSonic Monitor, iMac
+* HP Laptop, HP Monitor, iMac
+2. Send promotional emails to customers who buy specific products within any of the above item sets bulleted above, informing them of products likely to be interesting to them.
+3. Recommend ViewSonic and ASUS 2 Monitors as items customers also view each time a desktop computer is viewed or added to cart.
+4. Investigate returns of desktops purchased alongside other desktop brands. If customers are more often keeping all desktops, then initiate recommender systems and email promotions as items customers frequently purchase together.
+5. Discount the 20 lowest selling electronic products alongside other items recommended to customers in an effort to liquidate products not selling.
